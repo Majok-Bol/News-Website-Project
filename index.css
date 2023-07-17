@@ -1,0 +1,151 @@
+
+.fa-brands{
+    color:black;
+    font-size:5rem;
+}
+.icon{
+    text-align:center;
+}
+.infos{
+    text-align:center;
+}
+.news-head{
+    color:red;
+    font-size:3rem;
+}
+.text{
+    color:gray;
+    font-style:italic;
+}
+.nav{
+    width:100%;
+}
+.nav-list{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    gap:0.5rem;
+    font-size:0.5rem;
+    border-style:solid;
+    border-radius:10px;
+    padding:10px;
+    width:100%;
+    
+    
+}
+.nav-items{
+    list-style:none;
+
+ 
+}
+.nav-link{
+    text-decoration:none;
+}
+.navbar{
+    background-color:white;
+}
+.advert-head{
+    text-align:center;
+}
+
+.pic{
+    width:100%;
+    height:30%;
+}
+.cap{
+    text-align:center;
+    font-size:0.1rem;
+}
+
+
+.para{
+   font-size:1rem;
+   }
+.vida{
+    width:100%;
+    height:40%;
+}
+.img-list{
+    width:100%;
+    height:100%
+}
+.div{
+    width:100%;
+}
+.img-container{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    width:100%;
+    gap:0.3em;
+}
+.information{
+    text-align:center;
+}
+.heading2{
+    font-size:2rem;
+    color:black;
+}
+.info-11{
+    color:gray;
+    font-style:italic;
+    margin-top:-2rem;
+}
+#email{
+    width:60%;
+    padding:0.25rem;
+    background-color:lightblue;
+    border-radius:10px;
+    text-align:center;
+}
+.input{
+    text-align:center;
+}
+button{
+    border-radius:10px;
+    margin:0.5rem;
+    width:40%;
+    padding:0.25rem;
+}
+.sub{
+    text-align:center;
+}
+.listings{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+}
+.list2{
+ display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+}
+.list3{
+ display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    float:right;
+    margin-top:-14rem;
+}
+.list4{
+display:flex;
+     justify-content:space-around;
+    flex-direction:column;
+    float:right;
+    margin-top:-6rem;
+}
+.foot{
+    display:flex;
+     justify-content:space-around;
+    flex-direction:row;
+    gap:0.2rem;
+    font-size:0.65rem;
+    padding:1rem;
+    width:100%;
+    }
+    footer{
+   background-color:#F9B3BE; 
+   width:100%;
+   border-radius:10px;
+   border-width:100%;
+  }
