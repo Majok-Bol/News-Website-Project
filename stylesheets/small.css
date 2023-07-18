@@ -1,8 +1,8 @@
-@media (min-width: 1400px) {
+@media (max-width: 576px) {
   body {
     margin: 0;
-    /* background-color: bisque; */
   }
+
   .fa-brands {
     color: black;
     font-size: 5rem;
@@ -30,13 +30,13 @@
   .nav-list {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     gap: 0.1rem;
     font-size: 1.7rem;
     border-style: solid;
     border-radius: 15px;
     padding: 1rem;
-    width: 40%;
+    width: 100%;
     margin: auto;
   }
   .nav-items {
@@ -61,7 +61,7 @@
 
   .pic {
     width: 70%;
-    height: 100vh;
+    height: 10vh;
     display: block;
     margin: auto;
   }
