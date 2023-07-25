@@ -1,12 +1,12 @@
-@media (min-width: 1400px) {
+@media (min-width: 1000px) {
   body {
     margin: 0;
     /* background-color: bisque; */
   }
-  .fa-brands {
-    color: black;
+  .caption {
     font-size: 5rem;
   }
+
   .icon {
     text-align: center;
   }
@@ -30,13 +30,13 @@
   .nav-list {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction:row;
     gap: 0.1rem;
     font-size: 1.7rem;
     border-style: solid;
     border-radius: 15px;
     padding: 1rem;
-    width: 40%;
+    width: 80%;
     margin: auto;
   }
   .nav-items {
@@ -61,13 +61,23 @@
 
   .pic {
     width: 70%;
-    height: 100vh;
+    height: 120vh;
     display: block;
     margin: auto;
   }
   .cap {
     text-align: center;
     font-size: 0.1rem;
+    height:8rem;
+  }
+
+  .caption{
+    margin-top: 2rem;
+    font-size: 3.2rem;
+  }
+
+  .section2 {
+    margin-top: 3rem;
   }
 
   .vida {
