@@ -1,7 +1,6 @@
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     body {
       margin: 0;
-      background-color: blue;
     }
   
     .fa-brands {
@@ -20,10 +19,12 @@
     .news-head {
       color: red;
       font-size: 3rem;
+      margin-top: 1rem;
     }
     .text {
       color: gray;
       font-style: italic;
+      margin-top: 1rem;
     }
     .nav {
       width: 100%;
@@ -31,8 +32,8 @@
     .nav-list {
       display: flex;
       justify-content: space-around;
-      flex-direction: row;
-      gap: 0.1rem;
+      flex-direction: column;
+      gap: 0.26rem;
       font-size: 1.7rem;
       border-style: solid;
       border-radius: 15px;
@@ -62,7 +63,7 @@
   
     .pic {
       width: 70%;
-      height: 100vh;
+      height: 50vh;
       display: block;
       margin: auto;
     }
@@ -73,7 +74,7 @@
   
     .vida {
       width: 60%;
-      height: 70vh;
+      height: 50vh;
       display: block;
       margin: auto;
     }
@@ -163,7 +164,7 @@
       flex-direction: row;
       gap: 0.1rem;
       font-size: 1.35rem;
-      padding: 0.5rem;
+      padding: 0.26rem;
     }
     footer {
       background-color: #f9b3be;
@@ -178,6 +179,7 @@
     }
     .news-section {
       font-size: 1.65rem;
+      padding:2rem;
     }
     .section-text {
       font-size: 1.65rem;
